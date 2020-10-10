@@ -1,9 +1,27 @@
 
+/* banner css */
+.header-img {
+    display: grid;
+    height: 100%;
+    margin-bottom: 100px;
+    max-height: 100%;
+    max-width: 100%;
+    min-height: 400px; 
+/*  ^^ set this to the desire height in whatever unit px, etc. */
+    background-image: url(../images/banner.jpg); 
+/* ^^ check the path to the image, depends how you are serving your site*/
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* menu css  */
 .menu {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     width: 100%;
     background-color: rgb(32, 97, 12);
-    overflow: auto;
+    overflow: hidden;
+    position: sticky;
+    top:0;
+    
   }
   
    .menu a {
@@ -12,8 +30,8 @@
     color: white;
     text-decoration: none;
     font-size: 17px;
-    width: 18.95%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
-    text-align: center; /* If you want the text to be centered */
+    width: 18.9%; 
+    text-align: center; 
   }
   
   
@@ -26,5 +44,10 @@
   .menu a.active {
     background-color: #ffffff;
     color:rgb(32, 97, 12);
+  }
+
+  /* info */
+  .content{
+    padding-top: 45px;
   }
   
