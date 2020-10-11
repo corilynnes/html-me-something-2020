@@ -1,17 +1,23 @@
 
 /* banner css */
 .header-img {
-    display: grid;
-    height: 100%;
-    margin-bottom: 100px;
-    max-height: 100%;
+     display: grid;
+    /* height: 100%; */
     max-width: 100%;
-    min-height: 400px; 
-/*  ^^ set this to the desire height in whatever unit px, etc. */
-    background-image: url(../images/banner.jpg); 
-/* ^^ check the path to the image, depends how you are serving your site*/
-    background-size: cover;
-    background-repeat: no-repeat;
+    height: auto;
+    min-height: 450px; 
+    background-image: url(./images/banner.jpg) ;
+    background-repeat: no-repeat; 
+    background-size: contain;
+    background-color: black;
+    overflow: hidden;
+background-position: center;
+    
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
 }
 /* menu css  */
 .menu {
@@ -30,7 +36,7 @@
     color: white;
     text-decoration: none;
     font-size: 17px;
-    width: 18.9%; 
+    width: 18.94%; 
     text-align: center; 
   }
   
@@ -49,5 +55,6 @@
   /* info */
   .content{
     padding-top: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
   
