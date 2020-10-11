@@ -19,21 +19,21 @@ background-position: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     width: 100%;
     background-color: rgb(32, 97, 12);
-    overflow: hidden;
-    position: sticky;
-    top:0;
-    
-  }
+    position: sticky; 
+    display: inline-flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+     }
   
    .menu a {
-    float: left;
+    display: inline-block;
+    width: 20%; 
     padding: 10px;
     color: white;
     text-decoration: none;
     font-size: 17px;
-    width: 20%; 
     text-align: center; 
-  }
+     }
   
   
   .menu a:hover {
@@ -52,4 +52,8 @@ background-position: center;
     padding-top: 45px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
+
+.text-column{
+  width: :50%;
+}
   
