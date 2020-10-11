@@ -14,11 +14,6 @@
 background-position: center;
     
 }
-
-.responsive {
-  width: 100%;
-  height: auto;
-}
 /* menu css  */
 .menu {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -36,7 +31,7 @@ background-position: center;
     color: white;
     text-decoration: none;
     font-size: 17px;
-    width: 18.94%; 
+    width: 20%; 
     text-align: center; 
   }
   
