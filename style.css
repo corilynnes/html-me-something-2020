@@ -369,6 +369,7 @@ background-position: center;
     width: 100%;
     background-color: rgb(32, 97, 12);
     position: sticky; 
+    top:0;
     display: inline-flex;
     flex-flow: row nowrap;
     justify-content: space-evenly;
