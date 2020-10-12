@@ -414,6 +414,7 @@ main{
 
 .info{
   padding-left: 5%;
+  padding-right: 10%;
   width: 35%;
 }
   
@@ -436,4 +437,14 @@ footer a{
   color: white;
   font-size: 17px;
  font: white;
+}
+
+#venice{
+  display:flex;
+  flex-flow: row nowrap;
+}
+
+img{
+  height: 500px;
+  align-content: center;
 }
