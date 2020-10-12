@@ -410,6 +410,11 @@ background-position: center;
 main{
   display:flex;
   flex-flow: column nowrap;
+  align-items: :baseline;
+}
+
+.content{
+  justify-content: center;
 }
 
 .info{
@@ -439,12 +444,13 @@ footer a{
  font: white;
 }
 
-#venice{
+#rome, #venice, #cinque-terre, #pisa-pompeii, #florence{
   display:flex;
   flex-flow: row nowrap;
 }
 
 img{
   height: 500px;
-  align-content: center;
+   padding-right: 5%;
+  
 }
