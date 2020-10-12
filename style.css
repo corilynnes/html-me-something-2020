@@ -451,6 +451,7 @@ footer a{
 
 img{
   height: 500px;
-   padding-right: 5%;
+
+   padding:5 5 5 0;
   
 }
